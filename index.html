@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="css/gonggong.css">
+   <style>
+       *{
+            margin: 0;
+            padding: 0; 
+       }
+       ul li{
+        list-style:none;
+       }
+       #top,#header,#content,#footer,#bottom{
+        width:1480px;
+        margin:0 auto;
+        /* margin: 0;
+        padding: 0; */
+
+       }
+       #top{
+           height: 44px;
+           background: #f5f5f5;
+       }
+       #top ul {
+           float: right;
+       }
+       #top ul li{
+           float: left;
+           list-style:none;
+           color: #7d898b;
+           font-size: 14px;
+           margin: 0 13px 0 13px;
+           display: block;
+           line-height: 44px;
+       }
+       #top ul li:hover{
+           color: #00c64a;
+           
+       }
+       #header .search{
+           width: 168px;
+           height: 32px;
+            border: solid 1px #ebebeb;
+            margin-top: 16px;
+            float: left;
+       }
+       #header .logo{
+           float: left;
+           font-weight: 900;
+           margin-top: 20px;
+           margin-left: 472px;
+           font-size: 24px;
+       }
+       #header .header_nav ul{
+           float: left;
+       }
+       #header .header_nav ul li{
+           float: left;
+           margin:0 30px 0 30px;
+           line-height: 76px;
+           margin-top: 19px;
+       }
+       #header .header_nav ul li:hover{
+           color: #00c64a;
+           
+       }
+       #header .header_nav ul li:nth-child(3){
+        margin:0 50px 0 50px;
+        margin-top: 19px;
+        color: #7d898b;
+       } 
+       #header .header_nav ul li:nth-child(3):hover{
+           color: #7d898b;
+           
+       }
+   </style>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div id="top">
+        <ul>
+            <li>注册</li>
+            <li>登录</li>
+            <li>手机版</li>
+            <li>我的订单</li>
+            <li>客户服务</li>
+            <li>到货通知</li>
+        </ul>
+    </div>
+    <!-- 头部 -->
+    <div id="header">
+        <!-- 搜索 -->
+        <div class="search"></div>
+        <!-- logo -->
+        <div class="logo">LINE ERIENDS</div>
+        <!-- 导航栏 -->
+        <div class="header_nav">
+            <ul>
+                <li>卡通形象</li>
+                <li>全部商品</li>
+                <li>丨</li>
+                <li>首页</li>
+                <li>数码产品</li>
+                <li>时尚</li>
+                <li>生活萌物</li>
+                <li>毛绒玩偶</li>
+                <li> 软萌文具</li>
+                <li>儿童用品</li>
+                <li>限时折扣</li>
+                <li>夏日T恤</li>
+                
+            </ul>
+        </div>
+    </div>
+    <!-- 轮播图 -->
+    <div id="banner"></div>
+    <!-- 主体内容 -->
+    <div id="content">
+        <!-- 商品列表 -->
+        <div id="product1"></div>
+        <!-- 商品列表-最新上架 -->
+        <div id="new_product"></div>
+        <!-- 选项卡 -->
+        <div id="xuanxiangka"></div>
+        <!-- 商品列表2 -->
+        <div id="product2"></div>
+    
+    </div>
+   <!-- 脚部 -->
+    <div id="footer"></div>
+    <!-- 底部 -->
+    <div id="bottom"></div>
+</body>
+</html>
